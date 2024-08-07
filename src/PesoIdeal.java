@@ -1,6 +1,6 @@
 public class PesoIdeal {
     public  static void calculoDoPesoIdeal(double altura, double imc){
-        if (imc <18.5 || imc >24.5) {
+        if (imc <18.5 || imc <24.5) {
             double pesoIdealMin = altura * altura * 18.5;
             double pesoIdealMax = altura * altura * 24.9;
 
